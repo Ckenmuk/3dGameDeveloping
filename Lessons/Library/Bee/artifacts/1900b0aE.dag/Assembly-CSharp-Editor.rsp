@@ -375,6 +375,7 @@
 "Assets/Downloaded/Standard Assets/Editor/Water/Water4/SpecularLightingEditor.cs"
 "Assets/Downloaded/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs"
 "Assets/Downloaded/Standard Assets/Editor/Water/Water4/WaterEditorUtility.cs"
+"Assets/Editor/Window.cs"
 -langversion:9.0
 
 /deterministic
