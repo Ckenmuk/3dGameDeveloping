@@ -9,7 +9,7 @@ public class Window : EditorWindow
     public Material newMaterial;
     private Transform mainCamera;
 
-
+    [SerializeField] private float minValue = .1f;
 
     [MenuItem("Instruments / Windows / Prefab Generator")]
     public static void ShowMyWindow()
@@ -51,7 +51,7 @@ public class Window : EditorWindow
 
     }
 
-    float LabelSlider(Rect screenRect, float sliderValue, float sliderMaxValue, string labelText) // добавить MinValue
+    float LabelSlider(Rect screenRect, float sliderValue, float sliderMinValue, float sliderMaxValue, string labelText) // добавить MinValue
     {
         //создаем прямоугольник с координатами в пространстве и заданной шириной и высотой
         Rect labelRect = new Rect(screenRect.x, screenRect.y, screenRect.width / 2, screenRect.height);
@@ -59,7 +59,7 @@ public class Window : EditorWindow
         GUI.Label(labelRect, labelText); //создаем Label на экране
 
         Rect sliderRect = new Rect(screenRect.x + screenRect.width / 2, screenRect.y, screenRect.width / 2, screenRect.height);
-        sliderValue = GUI.HorizontalSlider(sliderRect, sliderValue, sliderMaxValue, sliderMaxValue);
+        sliderValue = GUI.HorizontalSlider(sliderRect, sliderValue, sliderMinValue, sliderMaxValue);
         return sliderValue; //возвращаем значение слайдера
     }
 
@@ -67,16 +67,16 @@ public class Window : EditorWindow
     Color RGBSlider(Rect screenRect, Color rgb)
     {
         // используя пользовательский слайдер, создаем его
-        rgb.r = LabelSlider(screenRect, rgb.r, 1.0f, "Red");
+        rgb.r = LabelSlider(screenRect, rgb.r, minValue, 1.0f, "Red");
         screenRect.y += 20; //промежуток между слайдерами
 
-        rgb.g = LabelSlider(screenRect, rgb.g, 1.0f, "Green");
+        rgb.g = LabelSlider(screenRect, rgb.g, minValue, 1.0f, "Green");
         screenRect.y += 20;
 
-        rgb.b = LabelSlider(screenRect, rgb.b, 1.0f, "Blue");
+        rgb.b = LabelSlider(screenRect, rgb.b, minValue, 1.0f, "Blue");
         screenRect.y += 20;
 
-        rgb.a = LabelSlider(screenRect, rgb.a, 1.0f, "alpha");
+        rgb.a = LabelSlider(screenRect, rgb.a, minValue, 1.0f, "alpha");
 
         return rgb;
     }
