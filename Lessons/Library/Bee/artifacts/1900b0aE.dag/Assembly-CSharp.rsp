@@ -461,6 +461,7 @@
 "Assets/Scripts/GUIScripts/MyIMGUI.cs"
 "Assets/Scripts/PlayersMovement.cs"
 "Assets/Scripts/Restart.cs"
+"Assets/Scripts/SunMoving.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
