@@ -1,368 +1,368 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1665126113350702, "dur": 340697, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1665126113350753, "dur": 11480, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1665126113362237, "dur": 316357, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1665126113678596, "dur": 12802, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1665126113692412, "dur": 13, "ph": "X", "name": "", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666705569234271, "dur": 1201964, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666705569234518, "dur": 12569, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666705569247090, "dur": 1182735, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666705570429827, "dur": 6407, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666705570437467, "dur": 13, "ph": "X", "name": "", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1665126113398826, "dur":3232, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665126113402082, "dur":325, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1665126113402427, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1665126113402445, "dur":346, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1665126113402816, "dur":578, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665126113403395, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665126113645931, "dur":155, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665126113646086, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665126113646111, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665126113646113, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665126113646120, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665126113646122, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665126113646127, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665126113646129, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665126113646134, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665126113646136, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665126113646143, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665126113646144, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665126113646149, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665126113646151, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665126113646156, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665126113646157, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665126113646171, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665126113646185, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665126113646206, "dur":2307, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1665126113403274, "dur":129, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113403403, "dur":6235, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113409640, "dur":613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1665126113410253, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113410343, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665126113410403, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113410441, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665126113410477, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113410513, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665126113410556, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113410594, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665126113410642, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113410679, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665126113410716, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113410756, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665126113410801, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113410843, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665126113410880, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113410915, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665126113410953, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113410990, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665126113411029, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113411067, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665126113411105, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113411140, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665126113411180, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113411216, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665126113411260, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113411303, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665126113411342, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113411379, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665126113411427, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113411468, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665126113411517, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113411554, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665126113411697, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113411748, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665126113411863, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113411903, "dur":107572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665126113519478, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113519606, "dur":3639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665126113523247, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113523363, "dur":2151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665126113525515, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113525576, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665126113525616, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113525650, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665126113525685, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113525717, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1665126113525778, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113525814, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":1, "ts":1665126113526104, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113526157, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":1, "ts":1665126113526201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113526288, "dur":3483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":1, "ts":1665126113529815, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1665126113529862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113529871, "dur":22480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1665126113552398, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1665126113552613, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113552661, "dur":1174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1665126113553836, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113553913, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1665126113554001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113554011, "dur":3810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1665126113557861, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":1, "ts":1665126113557904, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1665126113557909, "dur":1782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":1, "ts":1665126113559735, "dur":86190, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665126113403366, "dur":58, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665126113403424, "dur":6228, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665126113409652, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1665126113409720, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665126113409764, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1665126113409804, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665126113409841, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1665126113409889, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665126113409926, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1665126113409976, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665126113410013, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665126113410058, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665126113410097, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665126113410181, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665126113410254, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665126113410305, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665126113410346, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665126113410393, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665126113410433, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665126113410474, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665126113410513, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665126113410556, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665126113410811, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665126113411031, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665126113411072, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665126113411115, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665126113411200, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665126113411240, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665126113411277, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665126113411319, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665126113411373, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665126113411428, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665126113411471, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665126113411524, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665126113411652, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665126113411709, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665126113411745, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665126113411933, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665126113411978, "dur":233857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1665126113645836, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1665126113645901, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":2, "ts":1665126113645901, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665126113403318, "dur":92, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665126113403410, "dur":6230, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665126113409640, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1665126113409742, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665126113409787, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1665126113409835, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665126113409872, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1665126113409913, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665126113409951, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":3, "ts":1665126113409998, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665126113410035, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":3, "ts":1665126113410080, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665126113410170, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665126113410434, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665126113410513, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665126113410687, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665126113410807, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665126113410850, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665126113410924, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665126113410975, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665126113411036, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665126113411127, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665126113411222, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665126113411269, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665126113411322, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665126113411401, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665126113411447, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665126113411488, "dur":365, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665126113411854, "dur":107399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665126113519454, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665126113519678, "dur":43767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1665126113563447, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1665126113563526, "dur":82394, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665126113403354, "dur":63, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665126113403417, "dur":6219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665126113409639, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1665126113409891, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665126113410084, "dur":846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons.exe" }}
-,{ "pid":12345, "tid":4, "ts":1665126113411312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665126113413543, "dur":10262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons.exe" }}
-,{ "pid":12345, "tid":4, "ts":1665126113423847, "dur":57904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665126113481753, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665126113481842, "dur":41482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665126113523325, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665126113523405, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665126113523452, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665126113523490, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665126113523527, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665126113523560, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665126113523594, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665126113523636, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665126113523676, "dur":326, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665126113524004, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665126113524162, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665126113524205, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665126113524241, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665126113524271, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665126113524304, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665126113524334, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665126113524366, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665126113524395, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665126113524431, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665126113524459, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665126113524489, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665126113524518, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665126113524550, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665126113524580, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665126113524612, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665126113524642, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665126113524679, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665126113524715, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665126113524753, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665126113524785, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665126113524821, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665126113524852, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665126113524885, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665126113524920, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665126113524953, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665126113524990, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665126113525032, "dur":267, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665126113525300, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665126113525368, "dur":356, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665126113525725, "dur":119959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":4, "ts":1665126113645686, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1665126113645767, "dur":219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1665126113403400, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1665126113403401, "dur":6225, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1665126113409639, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":5, "ts":1665126113409641, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1665126113409708, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/app.info" }}
-,{ "pid":12345, "tid":5, "ts":1665126113409710, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1665126113409754, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1665126113409806, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1665126113409842, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1665126113409892, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1665126113409929, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1665126113409972, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1665126113410011, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":5, "ts":1665126113410057, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1665126113410097, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":5, "ts":1665126113410176, "dur":1328, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1665126113411504, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1665126113411675, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1665126113411805, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1665126113411889, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1665126113411927, "dur":141529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":5, "ts":1665126113553457, "dur":1404, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1665126113554864, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/resources.assets" }}
-,{ "pid":12345, "tid":5, "ts":1665126113554959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1665126113554977, "dur":5018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/resources.assets" }}
-,{ "pid":12345, "tid":5, "ts":1665126113560048, "dur":85871, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1665126113403417, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1665126113403418, "dur":6216, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1665126113409640, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":6, "ts":1665126113409756, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1665126113409815, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1665126113409875, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1665126113409958, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":6, "ts":1665126113410047, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1665126113410173, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1665126113410258, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1665126113410304, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1665126113410349, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1665126113410393, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1665126113410453, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1665126113410492, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1665126113410532, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1665126113410568, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1665126113410605, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1665126113410640, "dur":134022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":6, "ts":1665126113544664, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1665126113544779, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":6, "ts":1665126113544832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1665126113544853, "dur":17192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":6, "ts":1665126113562084, "dur":83834, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665126113403446, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665126113403447, "dur":6192, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665126113409641, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1665126113409771, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665126113409952, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":7, "ts":1665126113410016, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665126113410163, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1665126113410269, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665126113410477, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1665126113410753, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665126113410805, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1665126113410849, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665126113410891, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1665126113410932, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665126113410982, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1665126113411088, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665126113411164, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1665126113411221, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665126113411313, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1665126113411393, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665126113411440, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":7, "ts":1665126113411672, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665126113411724, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1665126113411893, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665126113411932, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":7, "ts":1665126113411978, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665126113412019, "dur":2706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":7, "ts":1665126113414726, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665126113414798, "dur":69394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":7, "ts":1665126113484194, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665126113484314, "dur":4564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":7, "ts":1665126113488880, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665126113488994, "dur":68598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":7, "ts":1665126113557593, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665126113557652, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/level0" }}
-,{ "pid":12345, "tid":7, "ts":1665126113557700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665126113557717, "dur":1962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/level0" }}
-,{ "pid":12345, "tid":7, "ts":1665126113559722, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/boot.config" }}
-,{ "pid":12345, "tid":7, "ts":1665126113559890, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1665126113559929, "dur":85992, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665126113403482, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665126113403483, "dur":6205, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665126113409688, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1665126113409885, "dur":274, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665126113410160, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665126113410229, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665126113410266, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665126113410310, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665126113410346, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665126113410493, "dur":288, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665126113410811, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665126113410867, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665126113410904, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665126113410948, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665126113411015, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665126113411070, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665126113411122, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665126113411167, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665126113411204, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665126113411258, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665126113411312, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665126113411360, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665126113411397, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665126113411441, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665126113411480, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665126113411548, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665126113411692, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665126113411784, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665126113411841, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665126113411921, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665126113411959, "dur":95675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665126113507635, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665126113507739, "dur":8925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665126113516664, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665126113516773, "dur":2515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665126113519290, "dur":270, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665126113519574, "dur":36152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":8, "ts":1665126113555727, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665126113555808, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/level0.resS" }}
-,{ "pid":12345, "tid":8, "ts":1665126113555856, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665126113555870, "dur":1813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/level0.resS" }}
-,{ "pid":12345, "tid":8, "ts":1665126113557728, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":8, "ts":1665126113557782, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1665126113557788, "dur":3985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":8, "ts":1665126113561819, "dur":84172, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1665126113650636, "dur":1341, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1665126113694466, "dur": 856, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1665126113692395, "dur": 3016, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1666705569305576, "dur":4119, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666705569310147, "dur":2276, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1666705569312447, "dur":294, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1666705569312742, "dur":846, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1666705569313618, "dur":836, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666705569314454, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666705570401835, "dur":164, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666705570401999, "dur":34, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666705570402033, "dur":89, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666705570402122, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666705570402139, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666705570402141, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666705570402154, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666705570402156, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666705570402167, "dur":115, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666705570402282, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666705570402296, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666705570402299, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666705570402306, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666705570402307, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666705570402314, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666705570402316, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666705570402323, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666705570402342, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666705570402357, "dur":2216, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1666705569314168, "dur":343, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666705569314512, "dur":8175, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666705569322687, "dur":26627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1666705569349315, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666705569349447, "dur":37379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666705569386827, "dur":893, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666705569387723, "dur":23606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666705569411335, "dur":660, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666705569412031, "dur":21116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666705569433148, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666705569433284, "dur":146980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666705569580265, "dur":1906, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666705569582177, "dur":19023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666705569601202, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666705569601337, "dur":58231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666705569659569, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666705569659715, "dur":134336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666705569794052, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666705569794194, "dur":192391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666705569986587, "dur":5067, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666705569991658, "dur":112229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666705570103889, "dur":386, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666705570104280, "dur":297376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666705570401657, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666705570401794, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1666705570401795, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705569314370, "dur":159, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705569314530, "dur":8199, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705569322730, "dur":1352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1666705569324083, "dur":1635, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705569325720, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1666705569325865, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705569326015, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1666705569326095, "dur":1638, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705569327735, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1666705569327852, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705569327938, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1666705569328055, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705569328260, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1666705569328358, "dur":210, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705569328570, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1666705569328665, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705569328722, "dur":4069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666705569332793, "dur":363, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705569333160, "dur":12148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666705569345309, "dur":297, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705569345610, "dur":54916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666705569400527, "dur":320, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705569400850, "dur":20585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666705569421435, "dur":389, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705569421826, "dur":64214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666705569486042, "dur":344, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705569486390, "dur":41893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666705569528284, "dur":355, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705569528642, "dur":21918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666705569550572, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705569550702, "dur":47145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666705569597848, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705569598017, "dur":22985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666705569621003, "dur":295, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705569621301, "dur":17917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666705569639219, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705569639372, "dur":31908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666705569671281, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705569671448, "dur":45370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666705569716819, "dur":290, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705569717114, "dur":1318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666705569718433, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705569718555, "dur":40886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666705569759442, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705569759561, "dur":1230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666705569760792, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705569761056, "dur":1028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666705569762085, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705569762198, "dur":25746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666705569787945, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705569788110, "dur":303942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666705570092055, "dur":223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705570092282, "dur":87283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666705570179567, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705570179706, "dur":1016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1666705570180748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666705570180796, "dur":10707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1666705570191661, "dur":210261, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666705569314816, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666705569314816, "dur":7956, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666705569322773, "dur":4867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1666705569327640, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666705569327760, "dur":21319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1666705569349080, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666705569349269, "dur":878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons.exe" }}
+,{ "pid":12345, "tid":3, "ts":1666705569350148, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666705569350214, "dur":47226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666705569397442, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666705569397644, "dur":24656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666705569422309, "dur":281, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666705569422592, "dur":40760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666705569463353, "dur":341, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666705569463699, "dur":37846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666705569501547, "dur":898, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666705569502450, "dur":36497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666705569538953, "dur":301, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666705569539259, "dur":21202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666705569560462, "dur":324, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666705569560790, "dur":40861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666705569601652, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666705569601770, "dur":27756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666705569629527, "dur":366, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666705569629897, "dur":18302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666705569648200, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666705569648351, "dur":40220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666705569688572, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666705569688791, "dur":63280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666705569752072, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666705569752202, "dur":31161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666705569783365, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666705569783520, "dur":34073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666705569817594, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666705569817765, "dur":174700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666705569992466, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666705569992624, "dur":134516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666705570127141, "dur":366, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666705570127511, "dur":177360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666705570304880, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666705570305005, "dur":2357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666705570307412, "dur":94507, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666705569314236, "dur":286, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666705569314522, "dur":8252, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666705569322775, "dur":1707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1666705569324482, "dur":1385, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666705569325869, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1666705569326007, "dur":1653, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666705569327663, "dur":21702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1666705569349365, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666705569349450, "dur":38154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666705569387605, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666705569387717, "dur":34118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666705569421835, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666705569421933, "dur":16059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666705569437994, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666705569438123, "dur":22660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666705569460785, "dur":598, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666705569461403, "dur":32576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666705569493981, "dur":8572, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666705569502556, "dur":25054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666705569527612, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666705569527783, "dur":33622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666705569561406, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666705569561523, "dur":23370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666705569584895, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666705569585018, "dur":19961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666705569604980, "dur":281, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666705569605265, "dur":30742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666705569636008, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666705569636142, "dur":41404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666705569677547, "dur":295, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666705569677845, "dur":84136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666705569761981, "dur":288, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666705569762271, "dur":1109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666705569763381, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666705569763517, "dur":24701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666705569788219, "dur":381, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666705569788603, "dur":51473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666705569840078, "dur":821, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666705569840903, "dur":75163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666705569916067, "dur":402, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666705569916473, "dur":254087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666705570170562, "dur":341, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666705570170913, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1666705570171165, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666705570171370, "dur":6137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1666705570177597, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1666705570177671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666705570177683, "dur":2861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1666705570180589, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1666705570180799, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666705570180888, "dur":220937, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666705569314496, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666705569314497, "dur":8138, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666705569322660, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1666705569322661, "dur":592, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666705569323445, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1666705569323447, "dur":1931, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666705569325381, "dur":23898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1666705569349280, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666705569349430, "dur":73085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666705569422515, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666705569422617, "dur":45686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666705569468305, "dur":1193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666705569469503, "dur":90328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666705569559833, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666705569559989, "dur":23440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666705569583430, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666705569583563, "dur":101932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666705569685496, "dur":471, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666705569685971, "dur":100436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666705569786408, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666705569786597, "dur":89677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666705569876275, "dur":940, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666705569877219, "dur":31405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666705569908626, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666705569908810, "dur":207550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666705570116361, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666705570116558, "dur":210093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666705570326652, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666705570326748, "dur":75173, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666705569314420, "dur":120, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666705569314540, "dur":8102, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666705569322660, "dur":44386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1666705569367048, "dur":260, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666705569367312, "dur":24900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666705569392213, "dur":484, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666705569392701, "dur":88463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666705569481165, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666705569481312, "dur":22690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666705569504003, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666705569504253, "dur":16450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666705569520704, "dur":321, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666705569521029, "dur":21742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666705569542772, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666705569542918, "dur":38985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666705569581905, "dur":802, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666705569582711, "dur":30810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666705569613522, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666705569613683, "dur":28713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666705569642398, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666705569642537, "dur":22713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666705569665251, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666705569665409, "dur":23473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666705569688883, "dur":1065, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666705569689952, "dur":67511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666705569757464, "dur":378, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666705569757847, "dur":1346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666705569759194, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666705569759454, "dur":64424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666705569823880, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666705569824034, "dur":84612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666705569908647, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666705569908809, "dur":35649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666705569944460, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666705569944640, "dur":362094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666705570306735, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666705570306877, "dur":95025, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666705569314946, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666705569314947, "dur":7784, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666705569322732, "dur":26347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1666705569349080, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666705569349263, "dur":2916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1666705569352180, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666705569352335, "dur":42312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666705569394648, "dur":284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666705569394937, "dur":26386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666705569421325, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666705569421460, "dur":54758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666705569476219, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666705569476389, "dur":40319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666705569516709, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666705569516862, "dur":23675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666705569540538, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666705569540681, "dur":19758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666705569560440, "dur":389, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666705569560830, "dur":31914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666705569592746, "dur":326, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666705569593076, "dur":19210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666705569612290, "dur":390, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666705569612685, "dur":22577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666705569635264, "dur":345, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666705569635614, "dur":23303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666705569658918, "dur":4039, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666705569662962, "dur":33000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666705569695970, "dur":1184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666705569697185, "dur":257174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666705569954361, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666705569954542, "dur":57217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666705570011763, "dur":601, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666705570012368, "dur":120171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666705570132541, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666705570132671, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1666705570132764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666705570134432, "dur":15745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1666705570150804, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666705570150892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666705570150902, "dur":17053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666705570168003, "dur":1494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1666705570169498, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666705570169621, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1666705570169680, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666705570169689, "dur":14882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1666705570184616, "dur":217305, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666705569314686, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666705569314687, "dur":7982, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666705569322676, "dur":1577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1666705569324253, "dur":1512, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666705569325767, "dur":23388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1666705569349171, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666705569349287, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1666705569349441, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666705569349527, "dur":46388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666705569395917, "dur":246, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666705569396166, "dur":28511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666705569424679, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666705569424828, "dur":145025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666705569569854, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666705569570024, "dur":29059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666705569599084, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666705569599217, "dur":21701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666705569620919, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666705569621079, "dur":133359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666705569754439, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666705569754599, "dur":33890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666705569788490, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666705569788708, "dur":98948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666705569887657, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666705569887850, "dur":99936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666705569987787, "dur":3679, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666705569991477, "dur":140858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666705570132336, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666705570132567, "dur":477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1666705570133045, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666705570133150, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666705570133201, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666705570137136, "dur":31677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666705570168859, "dur":1016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1666705570169875, "dur":223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666705570170100, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666705570170193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666705570170200, "dur":8401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666705570178652, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666705570178709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666705570178718, "dur":3868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drdol/Documents/!!!Unity/!/TerrainTest/Lessons_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666705570182628, "dur":219276, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666705570407694, "dur":1748, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1666705570437575, "dur": 813, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666705570437452, "dur": 972, "ph": "X", "name": "Write chrome-trace events", "args": {} },
